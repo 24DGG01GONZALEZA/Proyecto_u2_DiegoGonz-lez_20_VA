@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28E69AFA-EF9E-4A5E-9C0A-7986FC7F2F9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_u2_DiegoGonzález_20_VA</RootNamespace>
+    <AssemblyName>Proyecto_u2_DiegoGonzález_20_VA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conversion1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion1.Designer.cs">
+      <DependentUpon>conversion1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion11.Designer.cs">
+      <DependentUpon>conversion11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion12.Designer.cs">
+      <DependentUpon>conversion12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion13.Designer.cs">
+      <DependentUpon>conversion13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion14.Designer.cs">
+      <DependentUpon>conversion14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion15.Designer.cs">
+      <DependentUpon>conversion15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion17.Designer.cs">
+      <DependentUpon>conversion17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion18.Designer.cs">
+      <DependentUpon>conversion18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion19.Designer.cs">
+      <DependentUpon>conversion19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion2.Designer.cs">
+      <DependentUpon>conversion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion20.Designer.cs">
+      <DependentUpon>conversion20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion3.Designer.cs">
+      <DependentUpon>conversion3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion4.Designer.cs">
+      <DependentUpon>conversion4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion6.Designer.cs">
+      <DependentUpon>conversion6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion9.Designer.cs">
+      <DependentUpon>conversion9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversion10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion10.Designer.cs">
+      <DependentUpon>conversion10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversión16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversión16.Designer.cs">
+      <DependentUpon>conversión16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversión5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversión5.Designer.cs">
+      <DependentUpon>conversión5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversión7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversión7.Designer.cs">
+      <DependentUpon>conversión7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conversión8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversión8.Designer.cs">
+      <DependentUpon>conversión8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formcreditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formcreditos.Designer.cs">
+      <DependentUpon>formcreditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="conversion1.resx">
+      <DependentUpon>conversion1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion10.resx">
+      <DependentUpon>conversion10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion11.resx">
+      <DependentUpon>conversion11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion12.resx">
+      <DependentUpon>conversion12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion13.resx">
+      <DependentUpon>conversion13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion14.resx">
+      <DependentUpon>conversion14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion15.resx">
+      <DependentUpon>conversion15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion17.resx">
+      <DependentUpon>conversion17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion18.resx">
+      <DependentUpon>conversion18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion19.resx">
+      <DependentUpon>conversion19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion2.resx">
+      <DependentUpon>conversion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion20.resx">
+      <DependentUpon>conversion20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion3.resx">
+      <DependentUpon>conversion3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion4.resx">
+      <DependentUpon>conversion4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion6.resx">
+      <DependentUpon>conversion6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion9.resx">
+      <DependentUpon>conversion9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversión16.resx">
+      <DependentUpon>conversión16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversión5.resx">
+      <DependentUpon>conversión5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversión7.resx">
+      <DependentUpon>conversión7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversión8.resx">
+      <DependentUpon>conversión8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formcreditos.resx">
+      <DependentUpon>formcreditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volumen.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
